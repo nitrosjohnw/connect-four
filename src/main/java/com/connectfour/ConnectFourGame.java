@@ -48,7 +48,7 @@ public class ConnectFourGame {
             if (winner != null) {
                 gameOver = true;
                 this.winner = winner;
-                logger.info("Game over! Winner: " + winner);
+                logger.info("Game over! Winner: " + winner.name());
             } else {
                 switchPlayer();
             }

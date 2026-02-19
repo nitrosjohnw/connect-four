@@ -12,7 +12,7 @@ public class Gameboard {
     private final int columns;
     private final Token[][] grid;
     private final int winningLength;
-
+    // constructor
     public Gameboard(int rows, int columns, int winningLength) {
         this.rows = rows;
         this.columns = columns;

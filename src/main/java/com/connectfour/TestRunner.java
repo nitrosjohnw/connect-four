@@ -72,7 +72,7 @@ public class TestRunner {
         winTestGame.dropToken(1); 
         winTestGame.dropToken(0); 
         winTestGame.displayBoard();
-        System.out.println("Winner: " + winTestGame.getWinner());
+        System.out.println("Winner: " + winTestGame.getWinner().name());
         System.out.println("Win condition test passed!");
         
 

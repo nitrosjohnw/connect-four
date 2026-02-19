@@ -54,11 +54,11 @@ public class ConnectFourApp {
         if (game.isGameOver()) {
             game.displayBoard();
             if (game.getWinner() != null) {
-                System.out.println("Congratulations! Player " + game.getWinner() + " wins!");
+                System.out.println("Congratulations! Player " + game.getWinner().name() + " wins!");
             } else {
                 System.out.println("Game over! It's a draw!");
             }
-            logger.info("Game over. Winner: " + game.getWinner());
+            logger.info("Game over. Winner: " + game.getWinner().name());
         }
         scanner.close();
 
